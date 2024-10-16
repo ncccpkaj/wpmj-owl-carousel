@@ -69,4 +69,10 @@ $('.hero-carousel').owlCarousel({
         }
     }
 });
+$('.hero-carousel-next-item').click(function() {
+    $owl.trigger('next.owl.carousel');
+});
+$('.hero-carousel-prev-item').click(function() {
+    $owl.trigger('prev.owl.carousel');
+});
 [/owl_carousel_advanced]
